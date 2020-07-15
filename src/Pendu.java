@@ -227,7 +227,7 @@ public class Pendu extends Application {
 	@Override
 	public void start(Stage stage) {
 	    // création du modèle
-	    m=new MotMystere("/home/nicolas/IdeaProjects/Pendu/share/dict/french",3,10,MotMystere.PREMIEREETDERNIERE,10);
+	    m=new MotMystere("share/dict/french",3,10,MotMystere.PREMIEREETDERNIERE,10);
 	    this.clavier = leClavier();
 	    // Chargement des images
 	    this.chargerImages("./img");
