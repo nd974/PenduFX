@@ -20,6 +20,7 @@ Ajouter la bibliotheque OpenJFX a Intellij
 
 
 Ajouter l'option VM pour Intellij
+
 -p <PATH_LIB_JAVAFX> --add-modules javafx.base,javafx.controls,javafx.graphics
 
 
